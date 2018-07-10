@@ -134,7 +134,9 @@ sudo zypper install notify-osd
 
 ### Cannot disable Discord launching on startup
 
-Discord uses a setting that only works with GNOME based Desktop Environments, so any user who is running a different Desktop Environment (such as KDE Plasma, LXDE, LXQt, etc) will not be able to disable having Discord launch on startup after it has been enabled the first time.  To fix this, the user can just delete Discord's .desktop file in `~/.config/autostart`, but this issue will reappear if the user ever touches the setting within the client again.
+~~Discord uses a setting that only works with GNOME based Desktop Environments, so any user who is running a different Desktop Environment (such as KDE Plasma, LXDE, LXQt, etc) will not be able to disable having Discord launch on startup after it has been enabled the first time.  To fix this, the user can just delete Discord's .desktop file in `~/.config/autostart`, but this issue will reappear if the user ever touches the setting within the client again.~~
+
+This issue has been fixed as of 2018/07/10 in the Canary release.
 
 ### No input or output audio devices listed
 
