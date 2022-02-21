@@ -11,7 +11,7 @@ libc6, libasound2, libatomic1, libgconf-2-4, libnotify4, libnspr4, libnss3, libs
 ### Discord's dependencies on Arch Linux:
 
 ```
-glibc, alsa-lib, gcc-libs, gconf, libnotify, nspr, nss, libxss, libxtst, libc++ (libc++ is installed from the AUR)
+glibc, alsa-lib, gcc-libs, libnotify, nspr, nss, libxss, libxtst, libc++, gconf (libc++ and gconf are installed from the AUR)
 ```
 
 ### Discord's dependencies on Fedora:
